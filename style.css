@@ -1,11 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img{
+  width: 50%;
+  border-radius: 70%;
+}
 /* Give your page a fun background color */
 
 /* Make the header and footer a different color from the background */
-
+header, footer{
+  background-color: blue;
+  padding: 1rem;
+}
 /* Align the h1 containing your name in the center of the header*/
-
+header h1{
+  text-align: center;
+}
 /* Make your p tag a different color and italic */
-
+footer p{
+  font-style: italic;
+  color: #fff;
+}
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+ul li{
+  margin: 1rem 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
