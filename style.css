@@ -2,13 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 .img{
   width: 50%;
-  border-radius: 70%;
+  border: 4px solid #fff;
 }
 /* Give your page a fun background color */
-
+body{
+  background-color: cadetblue;
+}
 /* Make the header and footer a different color from the background */
 header, footer{
   background-color: blue;
